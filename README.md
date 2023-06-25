@@ -2,7 +2,14 @@
 
 ![Logo of the Project](https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
-This Python script is designed to scrape flight data from the Kayak website and generate a trip summary and heatmap based on the scraped data. It utilizes the BeautifulSoup, selenium, seaborn, matplotlib, and pandas libraries to achieve its functionality. Sample data can be found in this repository.
+This Python script is designed to scrape flight data from the Kayak website and generate a trip summary and heatmap based on the scraped data. It utilizes the BeautifulSoup, selenium, seaborn, matplotlib, and pandas libraries to achieve its functionality. 
+
+## Sample Output
+Heatmap:
+![plot](Heatmap_NAS_SJO_PUJ_SJU.png)
+
+Excel:
+![plot](Bildschirmfoto 2023-06-25 um 12.45.52.png)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
