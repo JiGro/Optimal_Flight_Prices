@@ -83,7 +83,7 @@ def scrape_flights(origin, destination, startdate, days, requests_amount, result
         return_arrtime_lst.append(return_arrtime)
 
         # Price
-        flight_price = flight.find('div', attrs={'class': "f8F1-above"}).text.replace("\xa0€","")
+        flight_price = flight.find('div', attrs={'class': "f8F1-above"}).text.replace("\xa0€", "").replace(".", "")
         price_lst.append(flight_price)
 
     df = pd.DataFrame({"origin": origin,
